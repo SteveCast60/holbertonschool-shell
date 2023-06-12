@@ -1,2 +1,2 @@
 #!/bin/bash
-rm *~
+chown guillaume vincent hello
