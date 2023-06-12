@@ -1,5 +1,2 @@
 #!/bin/bash
-f [ $(stat -c '%U' "hello") = "guillaume" ]
-then
-chown vincent "hello"
-fi
+chown guillaume vincent hello
