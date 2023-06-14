@@ -1,2 +1,2 @@
 #!/bin/bash
-':' read -ra directories <<< "$PATH"
+find . -type d | wc -l
