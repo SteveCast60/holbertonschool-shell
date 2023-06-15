@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%.2f\n"
+number=10.12345 | printf "%.2f\n" $number
